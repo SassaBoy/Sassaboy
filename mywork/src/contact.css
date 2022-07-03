@@ -1,0 +1,199 @@
+body
+{
+background-color:  #1E90FF;
+}
+
+.contact__container
+{
+padding: 4rem;
+background: black;
+display: grid;
+gap: 4rem;
+height: 35rem;
+margin: 7rem auto;
+border-radius: 1rem;
+}
+
+
+.contact__aside
+{
+background:#1E90FF;
+width: 400px;
+height: 700px;
+padding: 3rem;
+border-radius: 1rem;
+position: relative;
+bottom: 10rem;
+}
+
+.aside__image
+{
+width: 12rem;
+margin-bottom: 2rem;
+}
+
+.logocont
+{
+margin-top: -80px;
+margin-left: 10px;
+border-radius: 10px;
+border: none;
+}
+
+.contact__socials
+{
+display: flex;
+gap: 0.8rem;
+margin-top: 3rem;
+}
+
+.contact__socials a
+{
+background: white;
+padding: 0.5rem;
+border-radius: 50%;
+font-size: 0.9rem;
+transition: all 0.4s ease;
+}
+
+.contact__socials a:hover
+{
+background: transparent;
+}
+
+.contact__form
+{
+display:flex;
+flex-direction: column;
+gap: 1.2rem;
+margin-right: 4rem;
+
+}
+
+.contact__aside h2
+{
+text-align: left;
+margin-bottom: 1rem;
+}
+
+.contact__details li
+{
+display: grid;
+gap: 1rem;
+align-items: center;
+margin-bottom: 1rem;
+}
+.form1
+{
+float: right;
+margin-top: -700px;
+margin-left: 500px;
+}
+
+.form__name
+{
+
+}
+.mess
+{
+margin-top: 30px;
+width: 400px;
+height: 100px;
+}
+
+.btn-primary1
+{
+background-color: green;
+height: 60px;
+width: 200px;
+margin-top: 10px;
+color: black;
+}
+
+.btn-primary1:hover
+{
+background: white;
+cursor:pointer;
+}
+
+.em
+{
+margin-left: 1px;
+margin-top: 15px;
+height: 30px;
+width: 400px;
+}
+
+
+
+.form__name
+{
+width: 100%;
+height: 70px;
+}
+.first
+{
+height: 30px;
+width: 400px;
+}
+.last
+{
+height: 30px;
+width: 400px;
+margin-top: -10rem;
+}
+
+.logocont1
+{
+margin-top: -210px;
+margin-left: 30px;
+border-radius: 10px;
+}
+
+.container1
+{
+margin-top: 20px;
+margin-left: 100px;
+}
+
+.float-right
+{
+margin-top: -180px;
+float: right;
+margin-right: 160px;
+}
+
+
+.search-bar .tg-select {
+  color: #666;
+  float: left;
+  width:  400px;
+  margin-top: -10px;
+  margin-right: 200px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+
+.search-bar .tg-select:after {
+  top: 10px;
+  right: 15px;
+  z-index: 2;
+  color: #666;
+  display: block;
+  content: '\e93a';
+  position: absolute;
+  text-align: center;
+  font-size: inherit;
+  line-height: 40px;
+  font-family: 'LineIcons';
+}
+
+.search-bar .tg-select select {
+  z-index: 1;
+  width: 100%;
+  height: 30px;
+  position: relative;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}

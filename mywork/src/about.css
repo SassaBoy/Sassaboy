@@ -1,0 +1,73 @@
+.aboutus
+{
+background:  #1E90FF;
+margin-top: 8rem;
+align-items: center;
+}
+
+.container__first h4
+{
+margin-left: 30rem;
+font-size: 40px;
+margin-top: -15px;
+}
+
+.container__first p
+{
+padding: 5rem;
+margin-left: 14rem;
+}
+
+.container__last h4
+{
+margin-left: 30rem;
+font-size: 40px;
+margin-top: -15px;
+}
+.logo6
+{
+width: 240px;
+ height: 100px;
+ margin-left: 430px;
+ margin-top: -30px;
+ border-radius: 5px;
+ margin-bottom: 3rem;
+ }
+
+ .Us
+ {
+ background:  #1E90FF;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ }
+
+ .picture h4
+ {
+ margin-left: 700px;
+ margin-top: 100px;
+ }
+
+ .picture h5
+ {
+ margin-left: 400px;
+ }
+ .picture p
+ {
+  margin-left: 400px;
+ }
+
+ .picture1
+ {
+ margin-left: 200px;
+ margin-top: 70px;
+ border: 1px solid black;
+ }
+
+ @media screen and (max-width: 600px)
+ {
+ body
+ {
+ background: red;
+ }
+ }
